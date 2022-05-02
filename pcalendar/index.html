@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigeon Calendar</title>
+    <link rel="stylesheet" href="pcalendar.css">
+</head>
+<body>
+    <div>
+        <h1>Pigeon Calendar</h1>
+        <p>
+            This is a very simple calendar using plain vanilla JavaScript.
+        </p>
+        <span id="something-to-bind-to"></span>
+    </div>
+    <div class="pcalendar">
+
+    </div>
+</body>
+<script src="pcalendar.js"></script>
+<script type="text/javascript">
+
+    document.onreadystatechange = function () {
+        if (document.readyState === 'complete') {
+            pcalendar.init(".pcalendar");
+        }
+    }
+
+</script>
+</html>
