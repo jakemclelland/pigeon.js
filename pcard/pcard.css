@@ -1,0 +1,39 @@
+/*
+* pcard v0.1 - a simple card
+* Copyright (c) 2022 Jake McLelland
+* License: MIT
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+.pcard{
+    background: #f5f5f5;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psize-sm{
+    min-width: 5rem;
+    max-width: 5rem;
+    border-radius: 5px;
+    padding: 15px 5px;
+    margin: 5px;
+}
+
+.psize-md{
+    min-width: 10rem;
+    max-width: 10rem;
+    border-radius: 10px;
+    padding: 25px 9px;
+    margin: 9px;
+}
+
+.psize-lg{
+    min-width: 15rem;
+    max-width: 15rem;
+    border-radius: 10px;
+    padding: 25px 9px;
+    margin: 9px;
+}
