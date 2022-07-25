@@ -1,0 +1,62 @@
+/*
+* Pigeon v0.1 - Simple, re-usable elements
+* Copyright (c) 2022 Jake McLelland
+* License: MIT
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+/* Tags */
+a {
+    color: #6667AB;
+    text-decoration: none;
+}
+a:hover {
+    color: #81839A;
+}
+
+body {
+    margin: 2.5rem auto 0 2.5rem;
+    /*text-align: center;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+h1 {
+    color: #6667AB;
+    font-family: 'Literata', serif;
+    font-size: 4.5rem;
+    margin: 2.5rem auto 0 auto;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #6667AB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #6667AB;
+    font-family: 'Rubik', sans-serif;
+}
+
+hr{
+    border-color: #27293D;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
+    margin: 100px auto 100px auto;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+}
+
+samp{   
+    color: #6667AB;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
